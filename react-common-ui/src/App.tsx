@@ -1,21 +1,11 @@
 import './App.css';
+import ReactBootstrapNavbar from './components/Navbar/ReactBootstrapNavbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <ReactBootstrapNavbar />
+      <h5 className="d-flex justify-content-center">Welcome to react common ui elements </h5>
     </div>
   );
 }
